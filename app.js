@@ -50,3 +50,11 @@ modal.addEventListener("click",function(e) {
         closeModal()
     }
 })
+
+// $('.slider-block').slick();
+
+$('.slider-block').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 2
+  });
