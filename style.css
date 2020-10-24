@@ -266,16 +266,21 @@ margin-right: 15px;
 
 .wrapper {
 height: 600px;
+display: table;
+    position: relative;
 }
 .wrapper-2 {
     height: 50px;
+    display: table;
+    position: relative;
 }
 .parallax-img {
 height: 100%;
-background-attachment: fixed,scroll;
+background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+z-index:-2;
 }
 .white {
 background-color: rgba(224, 207, 207, 0.2);
@@ -287,10 +292,11 @@ background-image: url(./logo/bc1.jpg);
 }
 .parallax-img-2 {
 height: 100%;
-background-attachment: fixed,scroll;
+background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+z-index:-2;
 }
 .parallax-img-2 {
 background-image: url(./logo/image-asset\ \(8\).jpeg);
