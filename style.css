@@ -272,7 +272,7 @@ height: 600px;
 }
 .parallax-img {
 height: 100%;
-background-attachment: fixed;
+background-attachment: fixed,scroll;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -287,7 +287,7 @@ background-image: url(./logo/bc1.jpg);
 }
 .parallax-img-2 {
 height: 100%;
-background-attachment: fixed;
+background-attachment: fixed,scroll;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
