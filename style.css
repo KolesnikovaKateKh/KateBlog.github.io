@@ -564,11 +564,6 @@ margin: auto;
     color: rgba(126, 123, 123, 0.6);
 }
 
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
 
 /* sm */
 @media(min-width:768px) {
@@ -944,6 +939,12 @@ margin: auto;
     }
     .navigation.active-menu .menu {
         flex-direction: column;
+    }
+    .block-header-brand {
+        margin-top: 20px;
+    }
+    eighth-block-text {
+        margin-bottom: 20px;
     }
 }
 
