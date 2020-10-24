@@ -468,8 +468,9 @@ padding-top: 15px;
 .tenth-block-foto{
     display: flex;
     flex-direction: column;
+}
+.tenth-block {
     margin-bottom: 120px;
-
 }
 .tenth-block-foto-inside{
     display: flex;
@@ -940,12 +941,7 @@ margin: auto;
     .navigation.active-menu .menu {
         flex-direction: column;
     }
-    .block-header-brand {
-        margin-top: 20px;
-    }
-    eighth-block-text {
-        margin-bottom: 20px;
-    }
+    
 }
 
 @media(min-width:2500px) {
