@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    min-height: 1500px;
+    /* min-height: 1500px; */
     font-family: 'Libre Baskerville', serif;
 }
 .header {
