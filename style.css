@@ -281,7 +281,7 @@ background-size: cover;
 background-color: rgba(224, 207, 207, 0.2);
 height: 100%;
 }
-  
+
 .parallax-img {
 background-image: url(./logo/bc1.jpg);
 }
@@ -564,6 +564,11 @@ margin: auto;
     color: rgba(126, 123, 123, 0.6);
 }
 
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 
 /* sm */
 @media(min-width:768px) {
